@@ -1,0 +1,19 @@
+{
+  "name": "@tourosphere/ui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "class-variance-authority": "^0.7.0",
+    "tailwind-merge": "^2.5.2"
+  }
+}
